@@ -1,0 +1,12 @@
+/*--Personalized colors scheme for Sunny View--*/
+.index-col-1 {
+  background-color: #fefe82;
+}
+
+.theme Header h1, .theme Header h2, .modal-header h1, .sectionContent h1 {
+  			color: rgba(112, 3, 166, 0.97);
+}
+
+@media (max-width: 767px){
+ 
+}

@@ -1,0 +1,122 @@
+/*#cffcdf, #0CAADC, #15B097, #28190E;*/
+html
+{
+  height: 100%;  
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+  margin: 0;
+  min-height: 100%; 
+}
+
+
+
+h3{
+  margin-top:5px;
+}
+h4{
+  font-family: sans-serif,"Arial Black", Gadget;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header figure{
+  float: left;
+  width: 100%;
+  height: 76%;
+  margin-top: 0px;
+  background-color: #0085a4;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+header section{
+  height: 24%;
+}
+table{
+  font-size: 20px;
+  border-color: #28190E;
+  border-style: solid;
+  border-width: 5px;
+  width: 100%;
+  overflow-x:auto;
+}
+th {
+    height: 50px;
+  border-bottom: 1px solid #28190E;
+  text-align: left;
+  background-color:#0CAADC;
+}
+td{
+  border-bottom: 1px solid #28190E;
+}
+
+.bodyForm{
+  background: linear-gradient(#0085a4, #78daf5);
+}
+/*COLUMN PROPERTIES*/
+  .col-sm-4 INPUT[type="text"], .col-md-3 INPUT[type="text"]{
+    padding: 0px;
+    margin:0px;
+    width: 100%;
+  }
+  .col-sm-6 INPUT[type="text"]{
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    padding: 0px;
+}
+
+
+  .col-sm-12 INPUT[type="text"]{
+    min-width: 100px;
+  }
+/*-----------------------*/
+
+.formForm{
+  margin-top: 40px;
+  background: #b1e4e8;
+  border: solid;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  color: black;
+}
+.formheader{
+  background: #8c5c2b;
+  max-width: 600px;
+  border-color: #5f331a;
+  border-width: 10px;
+  border-style: outset;
+  padding: 0px;
+  height: 300px;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.HeaderSection{
+  color: #41afcb;
+  font-size: 3em;
+  text-align: center;
+}
+  
+.underline{
+  border-bottom:solid;
+}
+
+
+
+
+
+
+/*-------------------*/
+#formCurrent{
+  width: 100%;
+}
+/*.team-row{
+  min-width: 200px;
+}*/
+
+

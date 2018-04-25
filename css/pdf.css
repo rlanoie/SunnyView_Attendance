@@ -1,0 +1,135 @@
+.pdf-noPrint{
+	display: none;
+}
+.pdf-print-only{
+	display: visible;
+}
+	html, body {
+    height:100%;
+	}
+	body {
+		padding: 0;
+		margin: 0;
+		background: white;
+	} 
+	#attendanceMeta, #attendanceErrorLog, #sectionBody footer{
+		height: auto;
+		margin-bottom: 10px;
+	}
+	#attendanceMissing{
+		visibility: visible;
+	}
+	#AttendanceBody header h2{
+		height: auto;
+		visibility: visible;
+	}
+[class*="col-"]{
+	
+    border: solid;
+    border-color: white;
+}
+
+/*-- HIDDEN -------------------------------------------------------------------------*/	
+	button[type=submit], .buttonclass, #loginform input[type=button]{
+		visibility: hidden;
+	}
+/*-- HEADER -------------------------------------------------------------------------*/
+	Header{
+		height: auto;
+		visibility: visible;
+		font-weight: bolder;
+		margin-bottom: 20px;
+	}
+	Header h1{
+		font-size: 35px;
+		margin-bottom: 30px;
+    text-align: center;
+	}
+	Header .TitleLeft{
+		background-color: pink;
+	}
+	Header .container{
+		margin: 0px;
+		max-height:0px;
+		visibility: hidden;
+	}
+	nav, .TitlePosition, form{
+		visibility: hidden;
+	}
+	.TitleLeft h1{
+		border: solid;
+		background-color: yellow;	 
+	}
+	.nav-Header{
+		background-color: cyan;
+	}
+/*-- Section Meta -------------------------------------------------------------------------*/
+#attendanceMeta{
+    width: 80%;
+    border: solid;
+    border-style: groove;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;	
+}
+/*-- SECTION BODY -------------------------------------------------------------------------*/
+	section {
+    height: auto;
+	}
+	#sectionBody{
+		height: 100px;
+	}
+
+	.sectionResults {
+  	height: auto;
+  }
+
+	.sqlRes_table .body, .sectionResults, .resultsheader {
+    height: auto;
+	}
+
+	.sectionContent {
+    height: auto;
+	}
+	.section_head h2 {
+    color: rgba(112, 3, 166, 0.97);
+	}
+	.rowResults{
+		border-color: black;
+		border-bottom: dashed;
+		border-width: thin;
+	}
+	.row_date{
+		display: visible;
+	}
+
+	#filterEmployees, #filterEmployees .row {
+		height: 0px;
+	}
+	#filterEmployees .col-sm-2, #filterEmployees .col-sm-3, #filterEmployees .col-sm-4, #filterEmployees .row  {
+		height: 0px;
+		padding: 0px;
+		margin: 0px;
+	}
+/*-- ABSENCE -------------------------------------------------------------------------*/
+				#absenceBody .col-lg-1, #absenceBody .col-lg-2, #absenceBody .col-lg-3{
+					border-bottom: hidden;
+    			min-height: 20px;
+				}
+/*-- ATTENDANCE -------------------------------------------------------------------------*/
+	.col-sm-3{
+		width: 20%;
+	}
+
+/*-- ASIDE -------------------------------------------------------------------------*/
+	aside, .TitleSm-view, aside Header{
+		visibility: hidden;
+		height: 0px;
+	}
+
+
+
+	
+
+
+	

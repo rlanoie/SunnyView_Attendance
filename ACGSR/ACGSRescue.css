@@ -1,0 +1,183 @@
+
+html, body {
+    height:100%;
+	}
+	body {
+		padding: 0;
+		margin: 0;
+		background: #BBC3A1;
+	}
+fieldset{
+  border: none;
+}
+.centerText{
+  text-align: center;
+  align-content: center;
+}
+.container{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+button{
+  background-color: #686E57;
+    border-color: #243D0D;
+    color: #F4F4E9;
+ border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+button:hover{
+  background-color: #899D4C;
+}
+Header{
+  width 100%;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+  height: 10%
+}
+#body{
+  height: 90%;
+}
+
+Header h1{
+  color: #F4F4E9;
+  margin-top: 0px;
+}
+
+
+#page{
+  text-align: center;
+  height: 95%;
+  background-color: white;
+  color: #243D0D;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow:  10px 5px 5px grey;
+}
+#page header h2{
+  padding-top: 10px;
+  margin: 0px;
+}
+#pageInstructions{
+  height: 25%;
+}
+.instructions, #formDetails{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.instructions p{
+  margin: 0px;
+}
+.instructionsContainer{
+  width: 100%;
+    height: 90%;
+    overflow: auto;
+}
+#formDetails{
+  height: 60%;
+  border: solid;
+  border-style: groove;
+}
+#adoptionForm{
+  height: 100%;
+}
+
+#adoptionForm input{
+  width: 100%;
+  height: 95%;
+  padding: 0px;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: #686E57;
+  border-width: thin;
+}
+#adoptionForm [class*="col-"]{
+  float: left;
+  position: relative;
+  height: 100%;
+  padding: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#adoptionForm button{
+  height: 100%;
+  width: 100px;
+	margin-left: auto;
+  margin-right: auto;
+}
+#adoptionForm label{
+  visibility:hidden;
+}
+.formRow{
+  width: 100%;
+  height: 60px;
+  padding: 5px;
+  flex-flow: row wrap;
+}
+.formRow-error{
+  width: 100%;
+  height: 20px;
+  padding: 5px;
+  flex-flow: row wrap;
+}
+*, *:before, *:after {
+				box-sizing: border-box;
+			}
+						.clearfix:after {
+							content: "";
+							display: table;
+							clear: both;
+						}
+
+@media screen and (min-width: 500px){
+  .col-md-12{
+    width: 8.3333333%
+  }
+  .col-md-11{
+    width: 9.0909%;
+  }
+  .col-md-10{
+    width: 10.0%;
+  }
+  .col-md-9{
+    width: 11.11%;
+  }
+  .col-md-8{
+    width: 12.5%;
+  }
+  .col-md-7{
+    width: 14.2857%;
+  }
+  .col-md-6{
+    width: 16.6666%;
+  }
+  .col-md-5{
+    width: 20.00%;
+  }
+  .col-md-4{
+    width: 25%;
+  }
+  .col-md-3{
+    width: 33.33%;
+  }
+  .col-md-40{
+    width: 40%;
+  }
+  .col-md-2{
+    width: 50%;
+  }
+   .col-md-75{
+    width: 75%;
+  }
+  .col-md-1{
+    width: 100%;
+  }
+  
+}
+

@@ -1,0 +1,10 @@
+
+attendance
+  -add * if resident was accounted for more than once to the #results div 
+ 
+Login Error Page
+-Reset Password
+
+Security
+
+•	Add account page to allow employees to change their personal settings including their password.

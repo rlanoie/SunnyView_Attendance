@@ -1,0 +1,46 @@
+RewriteEngine On
+
+
+#Rewrite Site
+RewriteRule ^http://sv.generosi/tylogic.com?$ https://sv.generositylogic.com
+RewriteRule ^sv.generositylogic.com?$  https://sv.generositylogic.com
+
+
+#Rewrite Folders
+RewriteRule ^css/?$ https://sv.generositylogic.com
+RewriteRule ^fonts/?$ https://sv.generositylogic.com
+RewriteRule ^fonts/?$ https://sv.generositylogic.com
+RewriteRule ^images/?$ https://sv.generositylogic.com
+RewriteRule ^includes/?$ https://sv.generositylogic.com
+RewriteRule ^js/?$ https://sv.generositylogic.com
+RewriteRule ^other/?$ https://sv.generositylogic.com
+RewriteRule ^Other/?$ https://sv.generositylogic.com
+RewriteRule ^PHPMailer/?$ https://sv.generositylogic.com
+RewriteRule ^random_compat-1.4.3?$ https://sv.generositylogic.com
+RewriteRule ^www/?$ www/dashboard.php
+
+RewriteRule ^index/?$ https://sv.generositylogic.com
+
+
+#Rewrite www folders
+RewriteRule ^login/?$ www/login.php
+RewriteRule ^dashboard/?$ www/dashboard.php
+
+RewriteRule ^password/?$ www/password.php
+
+RewriteRule ^attendance-taking/?$ www/attendance.php
+RewriteRule ^attendance-page/?$ www/attendancePage.php
+RewriteRule ^absences/?$ www/absences.php
+
+RewriteRule ^resident/?$ www/resident.php
+
+RewriteRule ^admin-page/?$ www/adminPage.php
+RewriteRule ^users/?$  www/users.php
+
+RewriteRule ^logout/?$ www/logout.php
+RewriteRule ^login/?$ www/login.php
+##
+
+RewriteRule ^config?$ https://sv.generositylogic.com
+RewriteRule ^config.php/?$ https://sv.generositylogic.com
+RewriteRule ^config.php?$ https://sv.generositylogic.com
